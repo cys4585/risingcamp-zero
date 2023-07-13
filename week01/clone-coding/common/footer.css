@@ -5,35 +5,32 @@ footer {
   padding: 24px 32px 32px;
 }
 
-footer #section1 {
+footer #footer-section1 {
   display: flex;
   justify-content: space-between;
 }
 
-footer #section1 > .container {
+footer #footer-section1 > .container {
   display: flex;
+  gap: 10vw;
 }
 
-footer #section1 > .container > ul {
-  margin-right: 10vw;
-}
-
-footer #section1 > .container > ul > li {
+footer #footer-section1 > .container > ul > li {
   padding: 4px 0px;
 }
 
-footer #section1 > .container > ul > li > a {
+footer #footer-section1 > .container > ul > li > a {
   display: block;
   font-size: 14px;
   text-decoration: none;
   color: #fff;
 }
 
-footer #section1 > .container > ul > li > a:hover {
+footer #footer-section1 > .container > ul > li > a:hover {
   text-decoration: underline;
 }
 
-footer #section1 button {
+footer #footer-section1 button {
   color: #fff;
   background-color: transparent;
   border: 1px solid #fff;
@@ -41,18 +38,18 @@ footer #section1 button {
   display: flex;
 }
 
-footer #section1 button:hover {
+footer #footer-section1 button:hover {
   cursor: pointer;
 }
 
-footer #section2 {
+footer #footer-section2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 64px;
 }
 
-footer #section2 > div {
+footer #footer-section2 > div {
   font-size: 12px;
 }
 

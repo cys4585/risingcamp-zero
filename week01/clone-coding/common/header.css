@@ -1,41 +1,51 @@
 header > .container {
   margin-top: 12px;
   margin-bottom: 12px;
-
   padding: 0px 24px;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   font-size: 0.7rem;
+  gap: 8px;
 }
 
 header .item {
   flex-grow: 0;
-  margin-right: 8px;
-}
-
-header .item:hover {
-  cursor: pointer;
 }
 
 header .item > span:hover {
   color: blueviolet;
+  cursor: pointer;
 }
 
 header .last-item {
   flex-grow: 0;
-  margin-right: 0px;
 }
 
 header .full {
   flex-grow: 1;
-  margin-right: 16px;
 }
 
-header .full > input {
-  width: 100%;
+header .full .search-box {
+  display: flex;
+  gap: 4px;
+  border: 1px solid #1c1d1f;
+  border-radius: 9999px;
+  padding: 4px;
+  background-color: #f7f9fa;
+}
+
+header .full .search-box > .search-icon {
+  flex-grow: 0;
+  font-size: 20px;
+  background-color: #f7f9fa;
+}
+
+header .full .search-box > .search-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background-color: #f7f9fa;
 }
 
 header button {
