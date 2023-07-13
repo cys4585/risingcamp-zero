@@ -1,0 +1,32 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+}
+
+#section1 {
+  margin: 0px auto;
+  width: 70rem;
+}
+
+#section1 .container {
+  padding: 48px 48px 128px;
+  background-image: url("https://img-c.udemycdn.com/notices/web_carousel_slide/image/69094169-f35e-470a-9146-d5955c7330b9.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+#section1 .card {
+  background-color: #fff;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#section1 .card > h2 {
+  font-size: 28px;
+  margin-bottom: 14px;
+}
