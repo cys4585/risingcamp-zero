@@ -30,3 +30,108 @@ main {
   font-size: 28px;
   margin-bottom: 14px;
 }
+
+#main-section2 {
+  margin: 0px auto;
+  width: 70rem;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px 24px;
+}
+
+#main-section2-article1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#main-section2-article1 h2 {
+  font-size: 32px;
+  color: #1c1d1f;
+}
+
+#main-section2-article2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#main-section2-article2 > .container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-section2-article2 > .container1 > .nav {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+#main-section2-article2 > .container1 > .nav button {
+  background: none;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  color: #6a6f73;
+}
+
+#main-section2-article2 > .container1 > .nav button:hover {
+  color: #1c1d1f;
+}
+
+#main-section2-article2 > .container1 > .nav button.active {
+  color: #1c1d1f;
+}
+
+#main-section2-article2 > .container1 > .material-symbols-outlined {
+  color: #5624d0;
+  font-weight: bold;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+#main-section2-article2 > .container2 {
+  border: 1px solid #d1d7dc;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+#main-section2-article2 > .container2 > .about {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#main-section2-article2 > .container2 > .about > .description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#main-section2-article2 > .container2 > .about > .description div {
+  width: 70%; /* 요소의 너비를 적절히 설정 */
+}
+
+#main-section2-article2 > .container2 > .about > .description p {
+  display: -webkit-box; /* Required for 3+ lines of text */
+  -webkit-line-clamp: 3; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #a1a1a1;
+}
+
+#main-section2-article2 > .container2 > .about > .navigation button {
+  padding: 8px;
+  border: 1.5px solid;
+  cursor: pointer;
+  background-color: white;
+  border-color: 1c1d1f;
+  color: 1c1d1f;
+  font-size: 14px;
+  font-weight: bold;
+}

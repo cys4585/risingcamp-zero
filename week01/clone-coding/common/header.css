@@ -59,21 +59,17 @@ header button:hover {
 
 header button.bg-white {
   background-color: white;
-  border-color: black;
-  color: black;
+  border-color: #1c1d1f;
+  color: #1c1d1f;
 }
 
 header button.bg-black {
-  background-color: black;
-  border-color: black;
+  background-color: #1c1d1f;
+  border-color: #1c1d1f;
   color: white;
 }
 
 header .py {
   padding-top: 7.4px;
   padding-bottom: 7.4px;
-}
-
-header .material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 20;
 }
