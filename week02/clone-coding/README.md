@@ -1,0 +1,22 @@
+# 클론코딩: ts-react
+
+- ts-react
+  - [react + typescript udemy](https://www.udemy.com/course/best-react/learn/lecture/28518703#overview)
+- 에어비엔비
+  - 메인페이지
+    - header
+    - nav
+    - main
+      - list
+    - footer
+  - 상세페이지
+    - header
+    - main
+      - 요약 + 사진
+      - 정보
+      - 후기
+      - 지도
+      - 호스트
+      - 알아두어야 할 사항
+      - 다른 옵션
+    - footer
