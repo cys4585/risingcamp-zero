@@ -4,6 +4,7 @@
 
 - javascript
 - typescript
+- [상세 내용](./todo-list/README.md)
 
 ## 클론코딩: ts-react
 
