@@ -1,0 +1,25 @@
+#host-and-lauguage-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#host-and-lauguage-button > div {
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 22px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222222;
+}
+
+#host-and-lauguage-button > div:hover {
+  background-color: #f7f7f7;
+}
+
+#host-and-lauguage-button svg {
+  display: block;
+  height: 16px;
+  width: 16px;
+  fill: currentcolor;
+}

@@ -1,37 +1,9 @@
-#header {
+#header > div:first-child {
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-#header > div:last-child {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-#header > div:last-child > div:first-child {
-  display: flex;
-  align-items: center;
-}
-
-#header > div:last-child > div:first-child > div {
-  padding: 12px;
-  cursor: pointer;
-  border-radius: 22px;
-  font-size: 14px;
-  font-weight: 600;
-  color: #222222;
-}
-
-#header > div:last-child > div:first-child > div:hover {
-  background-color: #f7f7f7;
-}
-
-#header > div:last-child > div:first-child > div:last-child svg {
-  display: block;
-  height: 16px;
-  width: 16px;
-  fill: currentcolor;
+  border-bottom: 1px solid #dddddd;
+  box-shadow: 1px 1px 5px #dddddd;
+  padding: 0 40px;
 }
