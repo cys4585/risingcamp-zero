@@ -18,6 +18,7 @@
 .host {
   font-size: 14px;
   font-weight: 600;
+  white-space: nowrap; /* 줄바꿈 방지 */
 }
 
 .host-and-language-button__language > svg {

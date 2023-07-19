@@ -1,8 +1,13 @@
+.test {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
 .search {
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 40px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 16px;
   cursor: pointer;
