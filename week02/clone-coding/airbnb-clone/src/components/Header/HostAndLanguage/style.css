@@ -20,7 +20,7 @@
   font-weight: 600;
 }
 
-.language > svg {
+.host-and-language-button__language > svg {
   display: block;
   height: 16px;
   width: 16px;
