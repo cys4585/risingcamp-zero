@@ -1,23 +1,26 @@
-#host-and-lauguage-button {
+.host-and-language-button {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-#host-and-lauguage-button > div {
-  padding: 12px;
+.host-and-language-button > div {
   cursor: pointer;
   border-radius: 22px;
-  font-size: 14px;
-  font-weight: 600;
+  padding: 12px;
   color: #222222;
 }
 
-#host-and-lauguage-button > div:hover {
+.host-and-language-button > div:hover {
   background-color: #f7f7f7;
 }
 
-#host-and-lauguage-button svg {
+.host {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.language > svg {
   display: block;
   height: 16px;
   width: 16px;

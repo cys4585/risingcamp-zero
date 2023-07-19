@@ -1,4 +1,4 @@
-#mypagebutton {
+.account {
   display: flex;
   align-items: center;
   padding: 5px 5px 5px 12px;
@@ -9,11 +9,11 @@
   cursor: pointer;
 }
 
-#mypagebutton:hover {
+.account:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
 }
 
-#mypagebutton > div:first-child svg {
+.account__hamburger > svg {
   display: block;
   height: 16px;
   width: 16px;
@@ -23,7 +23,7 @@
   color: #222222;
 }
 
-#mypagebutton > div:last-child svg {
+.account__person > svg {
   display: block;
   height: 24px;
   width: 24px;

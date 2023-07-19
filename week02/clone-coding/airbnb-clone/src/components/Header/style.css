@@ -1,9 +1,8 @@
-#header > div:first-child {
+.header {
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #dddddd;
-  box-shadow: 1px 1px 5px #dddddd;
   padding: 0 40px;
 }
