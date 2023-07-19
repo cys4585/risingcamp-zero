@@ -20,7 +20,7 @@ export const dataList = [
   { text: "최고의 전망", imgSrc: bestView },
   { text: "한적한 시골", imgSrc: countryside },
   { text: "한옥", imgSrc: koreanHouse },
-  { text: "국립공원", imgSrc: nationalPark },
+  // { text: "국립공원", imgSrc: nationalPark },
   // { text: "인기 급상승", imgSrc: surgePopularity },
   // { text: "캠핑장", imgSrc: campground },
   // { text: "농장", imgSrc: farm },
