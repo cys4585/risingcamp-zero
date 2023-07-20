@@ -1,0 +1,70 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  cursor: pointer;
+  position: relative;
+}
+
+.card__img {
+  border-radius: 12px;
+  aspect-ratio: 1.05 / 1; /* width / heigth 비율 */
+  overflow: hidden;
+}
+
+.card__img > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.card__like {
+  padding: 2px;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  cursor: pointer;
+  transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1);
+}
+
+.card__like:active {
+  transform: scale(0.92);
+}
+
+.card__like > svg {
+  display: block;
+  fill: rgba(0, 0, 0, 0.5);
+  height: 24px;
+  width: 24px;
+  stroke: #ffffff;
+  stroke-width: 2;
+  overflow: visible;
+}
+
+.card__info.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card-info__address {
+  font-size: 15px;
+  color: #222222;
+  font-weight: 600;
+}
+
+.card-info__distance,
+.card-info__duration {
+  font-size: 15px;
+  color: #717171;
+}
+
+.card-info__price {
+  font-size: 15px;
+  margin-top: 6px;
+  color: #222222;
+}
+
+.card-info__price > :first-child {
+  font-weight: 600;
+}

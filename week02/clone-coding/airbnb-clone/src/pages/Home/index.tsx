@@ -1,15 +1,14 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Nav from "../../components/Nav";
+import Main from "./Main";
 
 function HomePage() {
   return (
     <div id="home">
       <Header />
       <Nav />
-      {/* 
       <Main />
-    */}
       <Footer />
     </div>
   );

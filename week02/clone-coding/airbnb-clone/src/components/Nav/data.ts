@@ -1,15 +1,15 @@
-import aShapeHouse from "../../assets/a-shape-house.jpg";
-import beach from "../../assets/beach.jpg";
-import bestView from "../../assets/best-view.jpg";
-import campground from "../../assets/campground.jpg";
-import countryside from "../../assets/countryside.jpg";
-import farm from "../../assets/farm.jpg";
-import koreanHouse from "../../assets/korean-house.jpg";
-import nationalPark from "../../assets/national-park.jpg";
-import room from "../../assets/room.jpg";
-import surfing from "../../assets/surfing.jpg";
-import surgePopularity from "../../assets/surge-popularity.jpg";
-import simmingPool from "../../assets/swimming-pool.jpg";
+import aShapeHouse from "../../assets/concept-nav/a-shape-house.jpg";
+import beach from "../../assets/concept-nav/beach.jpg";
+import bestView from "../../assets/concept-nav/best-view.jpg";
+import campground from "../../assets/concept-nav/campground.jpg";
+import countryside from "../../assets/concept-nav/countryside.jpg";
+import farm from "../../assets/concept-nav/farm.jpg";
+import koreanHouse from "../../assets/concept-nav/korean-house.jpg";
+import nationalPark from "../../assets/concept-nav/national-park.jpg";
+import room from "../../assets/concept-nav/room.jpg";
+import surfing from "../../assets/concept-nav/surfing.jpg";
+import surgePopularity from "../../assets/concept-nav/surge-popularity.jpg";
+import simmingPool from "../../assets/concept-nav/swimming-pool.jpg";
 
 export const dataList = [
   { text: "멋진 수영장", imgSrc: simmingPool },
