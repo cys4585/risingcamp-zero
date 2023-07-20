@@ -1,22 +1,24 @@
 import { useState, useEffect } from "react";
-import Card from "../../../components/Card";
-import { CardData } from "./data";
+import Card, { CardData } from "../../../components/Card";
 import "./style.css";
 
-function Main() {
+function Main({ selectedRoomConcept }: { selectedRoomConcept: string }) {
   const [rooms, setRooms] = useState<CardData[]>();
 
   useEffect(() => {
+    if (selectedRoomConcept === "") return;
     (async () => {
       try {
-        const response = await fetch("http://localhost:5000/rooms?_page=1");
+        const response = await fetch(
+          `http://localhost:5000/rooms-${selectedRoomConcept}`
+        );
         const jsonData = await response.json();
         setRooms(jsonData);
       } catch (error) {
         alert(error);
       }
     })();
-  }, []);
+  }, [selectedRoomConcept]);
 
   return (
     <div className="main">

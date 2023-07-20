@@ -1,5 +1,13 @@
-import { CardData } from "../../pages/Home/Main/data";
 import "./style.css";
+
+export interface CardData {
+  id: number;
+  imgSrc: string[];
+  address: string;
+  distance: string;
+  duration: string;
+  price: string;
+}
 
 function Card({ data }: { data: CardData }) {
   return (

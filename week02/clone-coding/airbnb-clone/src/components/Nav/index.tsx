@@ -1,14 +1,22 @@
 import { useState, useEffect } from "react";
 import "./style.css";
 
+interface SelectedRoomConcept {
+  selectedRoomConcept: string;
+  setSelectedRoomCeoncept: React.Dispatch<React.SetStateAction<string>>;
+}
+
 interface RoomConcept {
   id: number;
   text: string;
   imgSrc: string;
+  value: string;
 }
 
-function Nav() {
-  const [selectedItem, setSelectedItem] = useState<string>();
+function Nav({
+  selectedRoomConcept,
+  setSelectedRoomCeoncept,
+}: SelectedRoomConcept) {
   const [roomConcepts, setRoomConcepts] = useState<RoomConcept[]>();
 
   useEffect(() => {
@@ -19,12 +27,16 @@ function Nav() {
         );
         const jsonData = await response.json();
         setRoomConcepts(jsonData);
-        setSelectedItem(jsonData[0].text);
+        setSelectedRoomCeoncept(jsonData[0].value);
       } catch (error) {
         alert(error);
       }
     })();
   }, []);
+
+  useEffect(() => {
+    console.log(selectedRoomConcept);
+  }, [selectedRoomConcept]);
 
   return (
     <nav className="concept-nav">
@@ -38,21 +50,25 @@ function Nav() {
         </div>
         <ul className="concept-nav__list">
           {roomConcepts &&
-            roomConcepts.map(({ id, text, imgSrc }) => (
+            roomConcepts.map(({ id, text, imgSrc, value }) => (
               <li
                 className={`concept-nav__item ${
-                  selectedItem === text ? "concept-nav__item--selected" : null
+                  selectedRoomConcept === value
+                    ? "concept-nav__item--selected"
+                    : null
                 }`}
-                onClick={() => setSelectedItem(text)}
+                onClick={() => setSelectedRoomCeoncept(value)}
                 key={id}
               >
                 <div className="item">
                   <img
                     className={`item__img ${
-                      selectedItem === text ? "item__img--selected" : null
+                      selectedRoomConcept === value
+                        ? "item__img--selected"
+                        : null
                     }`}
                     src={imgSrc}
-                    alt={text}
+                    alt={value}
                     width="24"
                     height="24"
                   />

@@ -3,60 +3,80 @@
     {
       "id": 0,
       "text": "멋진 수영장",
-      "imgSrc": "/images/room-concepts/swimming-pool.jpg"
+      "imgSrc": "/images/room-concepts/swimming-pool.jpg",
+      "value": "swimming-pool"
     },
-    { "id": 1, "text": "방", "imgSrc": "/images/room-concepts/room.jpg" },
+    {
+      "id": 1,
+      "text": "방",
+      "imgSrc": "/images/room-concepts/room.jpg",
+      "value": "room"
+    },
     {
       "id": 2,
       "text": "해변 바로 앞",
-      "imgSrc": "/images/room-concepts/beach.jpg"
+      "imgSrc": "/images/room-concepts/beach.jpg",
+      "value": "beach"
     },
     {
       "id": 3,
       "text": "A자형 주택",
-      "imgSrc": "/images/room-concepts/a-shape-house.jpg"
+      "imgSrc": "/images/room-concepts/a-shape-house.jpg",
+      "value": "a-shape-house"
     },
     {
       "id": 4,
       "text": "서핑",
-      "imgSrc": "/images/room-concepts/surfing.jpg"
+      "imgSrc": "/images/room-concepts/surfing.jpg",
+      "value": "surfing"
     },
     {
       "id": 5,
       "text": "최고의 전망",
-      "imgSrc": "/images/room-concepts/best-view.jpg"
+      "imgSrc": "/images/room-concepts/best-view.jpg",
+      "value": "best-"
     },
     {
       "id": 6,
       "text": "한적한 시골",
-      "imgSrc": "/images/room-concepts/countryside.jpg"
+      "imgSrc": "/images/room-concepts/countryside.jpg",
+      "value": "countryside"
     },
     {
       "id": 7,
       "text": "한옥",
-      "imgSrc": "/images/room-concepts/korean-house.jpg"
+      "imgSrc": "/images/room-concepts/korean-house.jpg",
+      "value": "korean-house"
     },
     {
       "id": 8,
       "text": "국립공원",
-      "imgSrc": "/images/room-concepts/national-park.jpg"
+      "imgSrc": "/images/room-concepts/national-park.jpg",
+      "value": "national-park"
     },
     {
       "id": 9,
       "text": "인기 급상승",
-      "imgSrc": "/images/room-concepts/surge-popularity.jpg"
+      "imgSrc": "/images/room-concepts/surge-popularity.jpg",
+      "value": "surge-popularity"
     },
     {
       "id": 10,
       "text": "캠핑장",
-      "imgSrc": "/images/room-concepts/campground.jpg"
+      "imgSrc": "/images/room-concepts/campground.jpg",
+      "value": "campground"
     },
-    { "id": 11, "text": "농장", "imgSrc": "/images/room-concepts/farm.jpg" }
+    {
+      "id": 11,
+      "text": "농장",
+      "imgSrc": "/images/room-concepts/farm.jpg",
+      "value": "farm"
+    }
   ],
-  "rooms": [
+  "rooms-swimming-pool": [
     {
       "id": 0,
-      "imgSrc": ["/images/rooms/여수리조트.webp"],
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트1.webp"],
       "address": "Dolsan-eup, Yeosu-si, 한국",
       "distance": "326km 거리",
       "duration": "9월 3일~10일",
@@ -64,11 +84,29 @@
     },
     {
       "id": 1,
-      "imgSrc": ["/images/rooms/경주다인풀빌라팬션.webp"],
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션1.webp"],
       "address": "Oedong-eup, Gyeongju, 한국",
       "distance": "288km 거리",
       "duration": "11월 1일~6일",
       "price": "696,118"
+    }
+  ],
+  "rooms-korean-house": [
+    {
+      "id": 0,
+      "imgSrc": ["/images/rooms/korean-house/하회마을지산고택사랑방1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": "176,883"
+    },
+    {
+      "id": 1,
+      "imgSrc": ["/images/rooms/korean-house/한옥빌리지1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": "176,883"
     }
   ]
 }
