@@ -1,9 +1,30 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./style.css";
-import { dataList } from "./data";
+
+interface RoomConcept {
+  id: number;
+  text: string;
+  imgSrc: string;
+}
 
 function Nav() {
-  const [selectedItem, setSelectedItem] = useState<string>(dataList[0].text);
+  const [selectedItem, setSelectedItem] = useState<string>();
+  const [roomConcepts, setRoomConcepts] = useState<RoomConcept[]>();
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const response = await fetch(
+          "http://localhost:5000/room-concepts?_page=1"
+        );
+        const jsonData = await response.json();
+        setRoomConcepts(jsonData);
+        setSelectedItem(jsonData[0].text);
+      } catch (error) {
+        alert(error);
+      }
+    })();
+  }, []);
 
   return (
     <nav className="concept-nav">
@@ -16,28 +37,29 @@ function Nav() {
           </span>
         </div>
         <ul className="concept-nav__list">
-          {dataList.map(({ text, imgSrc }) => (
-            <li
-              className={`concept-nav__item ${
-                selectedItem === text ? "concept-nav__item--selected" : null
-              }`}
-              onClick={() => setSelectedItem(text)}
-              key={text}
-            >
-              <div className="item">
-                <img
-                  className={`item__img ${
-                    selectedItem === text ? "item__img--selected" : null
-                  }`}
-                  src={imgSrc}
-                  alt={text}
-                  width="24"
-                  height="24"
-                />
-                <span className="item__text">{text}</span>
-              </div>
-            </li>
-          ))}
+          {roomConcepts &&
+            roomConcepts.map(({ id, text, imgSrc }) => (
+              <li
+                className={`concept-nav__item ${
+                  selectedItem === text ? "concept-nav__item--selected" : null
+                }`}
+                onClick={() => setSelectedItem(text)}
+                key={id}
+              >
+                <div className="item">
+                  <img
+                    className={`item__img ${
+                      selectedItem === text ? "item__img--selected" : null
+                    }`}
+                    src={imgSrc}
+                    alt={text}
+                    width="24"
+                    height="24"
+                  />
+                  <span className="item__text">{text}</span>
+                </div>
+              </li>
+            ))}
         </ul>
         <div className="concept-nav__next">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">

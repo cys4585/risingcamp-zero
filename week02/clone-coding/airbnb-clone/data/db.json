@@ -1,0 +1,74 @@
+{
+  "room-concepts": [
+    {
+      "id": 0,
+      "text": "멋진 수영장",
+      "imgSrc": "/images/room-concepts/swimming-pool.jpg"
+    },
+    { "id": 1, "text": "방", "imgSrc": "/images/room-concepts/room.jpg" },
+    {
+      "id": 2,
+      "text": "해변 바로 앞",
+      "imgSrc": "/images/room-concepts/beach.jpg"
+    },
+    {
+      "id": 3,
+      "text": "A자형 주택",
+      "imgSrc": "/images/room-concepts/a-shape-house.jpg"
+    },
+    {
+      "id": 4,
+      "text": "서핑",
+      "imgSrc": "/images/room-concepts/surfing.jpg"
+    },
+    {
+      "id": 5,
+      "text": "최고의 전망",
+      "imgSrc": "/images/room-concepts/best-view.jpg"
+    },
+    {
+      "id": 6,
+      "text": "한적한 시골",
+      "imgSrc": "/images/room-concepts/countryside.jpg"
+    },
+    {
+      "id": 7,
+      "text": "한옥",
+      "imgSrc": "/images/room-concepts/korean-house.jpg"
+    },
+    {
+      "id": 8,
+      "text": "국립공원",
+      "imgSrc": "/images/room-concepts/national-park.jpg"
+    },
+    {
+      "id": 9,
+      "text": "인기 급상승",
+      "imgSrc": "/images/room-concepts/surge-popularity.jpg"
+    },
+    {
+      "id": 10,
+      "text": "캠핑장",
+      "imgSrc": "/images/room-concepts/campground.jpg"
+    },
+    { "id": 11, "text": "농장", "imgSrc": "/images/room-concepts/farm.jpg" }
+  ],
+  "rooms": [
+    {
+      "id": 0,
+      "imgSrc": ["/images/rooms/여수리조트.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": "181,714"
+    },
+    {
+      "id": 1,
+      "imgSrc": ["/images/rooms/경주다인풀빌라팬션.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": "696,118"
+    }
+  ]
+}

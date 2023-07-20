@@ -1,11 +1,11 @@
-import 여수리조트 from "../../assets/main-contents/여수리조트.webp";
+import { CardData } from "../../pages/Home/Main/data";
 import "./style.css";
 
-function Card() {
+function Card({ data }: { data: CardData }) {
   return (
     <div className="card">
       <div className="card__img">
-        <img src={여수리조트} alt="" />
+        <img src={data.imgSrc[0]} alt="" />
       </div>
       <div className="card__like">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
@@ -13,11 +13,11 @@ function Card() {
         </svg>
       </div>
       <div className="card__info card-info">
-        <div className="card-info__address">Dolsan-eup, Yeosu-si, 한국</div>
-        <div className="card-info__distance">326km 거리</div>
-        <div className="card-info__duration">9월 3일~10일</div>
+        <div className="card-info__address">{data.address}</div>
+        <div className="card-info__distance">{data.distance}</div>
+        <div className="card-info__duration">{data.duration}</div>
         <div className="card-info__price">
-          <span>₩181,714</span>
+          <span>₩{data.price}</span>
           <span> /박</span>
         </div>
       </div>
