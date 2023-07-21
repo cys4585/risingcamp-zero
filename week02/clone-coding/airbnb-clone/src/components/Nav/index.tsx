@@ -34,10 +34,6 @@ function Nav({
     })();
   }, []);
 
-  useEffect(() => {
-    console.log(selectedRoomConcept);
-  }, [selectedRoomConcept]);
-
   return (
     <nav className="concept-nav">
       <div className="concept-nav__content">
