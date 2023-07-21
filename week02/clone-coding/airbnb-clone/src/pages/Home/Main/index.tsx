@@ -10,10 +10,11 @@ const fetchRooms = async (roomconcept: string, page: number) => {
 };
 
 function Main({ selectedRoomConcept }: { selectedRoomConcept: string }) {
+  const [isLast, setIsLast] = useState<boolean>(false);
   const pageEnd = useRef<HTMLDivElement>(null);
 
   const [rooms, setRooms] = useState<CardData[]>([]);
-  const [currentPage, setCurrentPage] = useState<number>(1);
+  const [currentPage, setCurrentPage] = useState<number>(0);
 
   // useEffect(() => {
   //   console.log(rooms);
@@ -23,6 +24,9 @@ function Main({ selectedRoomConcept }: { selectedRoomConcept: string }) {
     try {
       // console.log(selectedRoomConcept, page);
       const data = await fetchRooms(selectedRoomConcept, page);
+      if (data.length === 0) {
+        setIsLast(true);
+      }
       setRooms((prev) => [...prev, ...data]);
     } catch (error) {
       alert(error);
@@ -38,7 +42,7 @@ function Main({ selectedRoomConcept }: { selectedRoomConcept: string }) {
 
   useEffect(() => {
     if (selectedRoomConcept === "") return;
-    if (currentPage === 1) return;
+    if (currentPage === 0) return;
 
     getRooms(currentPage);
   }, [currentPage]);
@@ -46,8 +50,12 @@ function Main({ selectedRoomConcept }: { selectedRoomConcept: string }) {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
+        // console.log("entries", entries);
         if (entries[0].isIntersecting) {
-          setCurrentPage((prev) => prev + 1);
+          setCurrentPage((prev) => {
+            // console.log("prev", prev);
+            return prev + 1;
+          });
         }
       },
       { threshold: 0 }
@@ -62,7 +70,7 @@ function Main({ selectedRoomConcept }: { selectedRoomConcept: string }) {
     <div className="main">
       {rooms.length > 0 &&
         rooms.map((data) => <Card key={data.id} data={data} />)}
-      <div ref={pageEnd}>로딩 중...</div>
+      {!isLast && <div ref={pageEnd}>...</div>}
     </div>
   );
 }
