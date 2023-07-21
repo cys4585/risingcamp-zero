@@ -14,7 +14,7 @@ function Main({ selectedRoomConcept }: { selectedRoomConcept: string }) {
   const pageEnd = useRef<HTMLDivElement>(null);
 
   const [rooms, setRooms] = useState<CardData[]>([]);
-  const [currentPage, setCurrentPage] = useState<number>(0);
+  const [currentPage, setCurrentPage] = useState<number>(1);
 
   // useEffect(() => {
   //   console.log(rooms);
@@ -22,9 +22,9 @@ function Main({ selectedRoomConcept }: { selectedRoomConcept: string }) {
 
   const getRooms = async (page: number) => {
     try {
-      // console.log(selectedRoomConcept, page);
+      console.log(selectedRoomConcept, page);
       const data = await fetchRooms(selectedRoomConcept, page);
-      // console.log(data);
+      console.log(data);
       if (data.length === 0) {
         setIsLast(true);
       }
@@ -37,13 +37,15 @@ function Main({ selectedRoomConcept }: { selectedRoomConcept: string }) {
   useEffect(() => {
     if (selectedRoomConcept === "") return;
 
+    setIsLast(false);
+    setRooms([]);
     setCurrentPage(1);
     getRooms(1);
   }, [selectedRoomConcept]);
 
   useEffect(() => {
     if (selectedRoomConcept === "") return;
-    if (currentPage === 0) return;
+    if (currentPage === 1) return;
 
     getRooms(currentPage);
   }, [currentPage]);
@@ -51,7 +53,7 @@ function Main({ selectedRoomConcept }: { selectedRoomConcept: string }) {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        // console.log("entries", entries);
+        console.log("entries", entries);
         if (entries[0].isIntersecting) {
           setCurrentPage((prev) => {
             // console.log("prev", prev);
