@@ -24,6 +24,7 @@ function Main({ selectedRoomConcept }: { selectedRoomConcept: string }) {
     try {
       // console.log(selectedRoomConcept, page);
       const data = await fetchRooms(selectedRoomConcept, page);
+      // console.log(data);
       if (data.length === 0) {
         setIsLast(true);
       }

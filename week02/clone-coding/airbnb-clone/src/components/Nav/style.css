@@ -1,4 +1,9 @@
 .concept-nav {
+  position: sticky;
+  top: 62px;
+  background-color: white;
+  z-index: 1;
+
   padding: 20px 40px 0;
   display: flex;
   align-items: center;
