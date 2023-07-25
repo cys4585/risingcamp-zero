@@ -49,9 +49,7 @@ function Nav({
             roomConcepts.map(({ id, text, imgSrc, value }) => (
               <li
                 className={`concept-nav__item ${
-                  selectedRoomConcept === value
-                    ? "concept-nav__item--selected"
-                    : null
+                  selectedRoomConcept === value && "concept-nav__item--selected"
                 }`}
                 onClick={() => setSelectedRoomCeoncept(value)}
                 key={id}
@@ -59,9 +57,7 @@ function Nav({
                 <div className="item">
                   <img
                     className={`item__img ${
-                      selectedRoomConcept === value
-                        ? "item__img--selected"
-                        : null
+                      selectedRoomConcept === value && "item__img--selected"
                     }`}
                     src={imgSrc}
                     alt={value}
