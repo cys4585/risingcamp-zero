@@ -9,7 +9,6 @@ function Header() {
     <header className="header">
       <MainLogoLink />
       <Search />
-      {/* block 단위로 컴포넌트를 나눴는데, 뭔가 어색한 느낌 */}
       <HostAndLanguageButton />
       <Account />
     </header>

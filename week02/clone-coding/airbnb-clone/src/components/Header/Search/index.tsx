@@ -8,7 +8,6 @@ function Search() {
         <span className="search__divline" />
         <div className="search__text">언제든 일주일</div>
         <span className="search__divline" />
-        {/* BEM 규칙을 만족하도록 아래 div의 className을 정할 수 있을지? */}
         <div>
           <div className="search__text search__text--light">게스트 추가</div>
           <div className="search__icon">
