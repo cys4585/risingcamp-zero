@@ -10,70 +10,55 @@ const fetchRooms = async (roomconcept: string, page: number) => {
 };
 
 function Main({ selectedRoomConcept }: { selectedRoomConcept: string }) {
-  const [isLast, setIsLast] = useState<boolean>(false);
   const pageEnd = useRef<HTMLDivElement>(null);
 
+  const [isLast, setIsLast] = useState<boolean>(false);
   const [rooms, setRooms] = useState<CardData[]>([]);
   const [currentPage, setCurrentPage] = useState<number>(1);
 
-  // useEffect(() => {
-  //   console.log(rooms);
-  // }, [rooms]);
-
   const getRooms = async (page: number) => {
     try {
-      // console.log(selectedRoomConcept, page);
       const data = await fetchRooms(selectedRoomConcept, page);
-      // console.log(data);
       if (data.length === 0) {
         setIsLast(true);
+      } else {
+        setRooms((prev) => [...prev, ...data]);
       }
-      setRooms((prev) => [...prev, ...data]);
     } catch (error) {
       alert(error);
     }
   };
 
   useEffect(() => {
-    if (selectedRoomConcept === "") return;
-
+    if (rooms.length > 0) setRooms([]);
+    if (currentPage > 1) setCurrentPage(1);
     setIsLast(false);
-    setRooms([]);
-    setCurrentPage(1);
-    getRooms(1);
   }, [selectedRoomConcept]);
 
   useEffect(() => {
-    if (selectedRoomConcept === "") return;
-    if (currentPage === 1) return;
-
-    getRooms(currentPage);
+    if (currentPage < 1) return;
+    (async () => await getRooms(currentPage))();
   }, [currentPage]);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        // console.log("entries", entries);
-        if (entries[0].isIntersecting) {
-          setCurrentPage((prev) => {
-            // console.log("prev", prev);
-            return prev + 1;
-          });
-        }
-      },
-      { threshold: 0 }
-    );
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) setCurrentPage((prev) => prev + 1);
+      });
+    });
 
-    if (pageEnd.current) {
-      observer.observe(pageEnd.current);
-    }
-  }, []);
+    if (pageEnd.current) observer.observe(pageEnd.current);
+
+    return () => {
+      if (pageEnd.current) observer.unobserve(pageEnd.current);
+    };
+  }, [rooms]);
 
   return (
     <div className="main">
       {rooms.length > 0 &&
         rooms.map((data) => <Card key={data.id} data={data} />)}
-      {!isLast && <div ref={pageEnd}>...</div>}
+      {!isLast && <div ref={pageEnd}>load more...</div>}
     </div>
   );
 }

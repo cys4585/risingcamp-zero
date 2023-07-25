@@ -14,7 +14,9 @@ function HomePage() {
         selectedRoomConcept={selectedRoomConcept}
         setSelectedRoomCeoncept={setSelectedRoomCeoncept}
       />
-      <Main selectedRoomConcept={selectedRoomConcept} />
+      {selectedRoomConcept !== "" && (
+        <Main selectedRoomConcept={selectedRoomConcept} />
+      )}
       <Footer />
     </div>
   );
