@@ -22,9 +22,9 @@ function Main({ selectedRoomConcept }: { selectedRoomConcept: string }) {
 
   const getRooms = async (page: number) => {
     try {
-      console.log(selectedRoomConcept, page);
+      // console.log(selectedRoomConcept, page);
       const data = await fetchRooms(selectedRoomConcept, page);
-      console.log(data);
+      // console.log(data);
       if (data.length === 0) {
         setIsLast(true);
       }
@@ -53,7 +53,7 @@ function Main({ selectedRoomConcept }: { selectedRoomConcept: string }) {
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
-        console.log("entries", entries);
+        // console.log("entries", entries);
         if (entries[0].isIntersecting) {
           setCurrentPage((prev) => {
             // console.log("prev", prev);

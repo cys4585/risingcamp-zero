@@ -2,7 +2,7 @@ import "./style.css";
 
 function Search() {
   return (
-    <div className="test">
+    <div className="search-wrapper">
       <div className="search">
         <div className="search__text">어디든지</div>
         <span className="search__divline" />

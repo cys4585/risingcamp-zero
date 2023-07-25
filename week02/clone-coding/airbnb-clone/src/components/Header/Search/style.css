@@ -1,8 +1,9 @@
-.test {
+.search-wrapper {
   flex-grow: 1;
   display: flex;
   justify-content: center;
 }
+
 .search {
   background-color: #ffffff;
   border: 1px solid #dddddd;
