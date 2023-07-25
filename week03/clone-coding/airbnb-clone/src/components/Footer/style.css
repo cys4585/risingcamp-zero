@@ -1,0 +1,105 @@
+.footer {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border-top: 1px solid #dddddd;
+  left: 0;
+  bottom: 0;
+  padding: 13px 40px 8px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.about__item {
+  white-space: nowrap;
+  display: inline;
+}
+
+.about__item > a {
+  color: black;
+  text-decoration: none;
+  color: #222222;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.about__item > a:hover {
+  text-decoration: underline;
+}
+
+.about__div-dot {
+  padding: 0 8px;
+}
+
+.about__additional {
+  white-space: nowrap;
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222222;
+}
+
+.country {
+  display: flex;
+  gap: 16px;
+}
+
+.country__language {
+  display: flex;
+  gap: 8px;
+}
+
+.country__language:hover {
+  text-decoration: underline;
+}
+
+.country__language-icon > svg {
+  display: block;
+  height: 16px;
+  width: 16px;
+  fill: currentcolor;
+}
+
+.country__currency {
+  display: flex;
+  gap: 8px;
+}
+
+.country__currency:hover {
+  text-decoration: underline;
+}
+
+.reference {
+  display: flex;
+  gap: 4px;
+}
+
+.reference:hover {
+  text-decoration: underline;
+}
+
+.reference__icon {
+  display: block;
+  fill: none;
+  height: 16px;
+  width: 16px;
+  stroke: currentcolor;
+  stroke-width: 4;
+  overflow: visible;
+}
+
+.provider {
+  border-top: 1px solid #dddddd;
+  padding-top: 8px;
+  font-size: 10px;
+  color: #717171;
+  line-height: 12px;
+}

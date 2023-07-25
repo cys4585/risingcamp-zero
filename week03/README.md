@@ -23,7 +23,7 @@
 ### github guide
 
 - issue를 직접 만들어서 pr에서 close 키워드 사용해보기
-- [ ] issue 만들기
+- [x] issue 만들기
 - [ ] pull request에 close 키워드 사용하기
 - [reference link](https://yeoonjae.tistory.com/entry/Project-Github-PR-merge-%EC%8B%9C-issue-%EC%9E%90%EB%8F%99-close-%EB%B0%A9%EB%B2%95)
 
@@ -33,14 +33,14 @@
 
 ### TypeScript 챌린지
 
-- [ ] warm-up 13.hello world 풀기
+- [x] warm-up 13.hello world 풀기
 - [challenge link](https://github.com/type-challenges/type-challenges/blob/main/README.ko.md)
 
 ### 클론코딩
 
-- [ ] 이미지, 텍스트 반복되는 부분을 외부에서 import 하는 데이터로 바꾸고 map 함수 사용해서 컴포넌트 반복
-- [ ] nav item 클릭했을 때 다른 데이터가 나오도록 구현
-- [ ] 금액에 `,` 찍는 함수 구현하기 (직접 구현)
+- [x] 이미지, 텍스트 반복되는 부분을 외부에서 import 하는 데이터로 바꾸고 map 함수 사용해서 컴포넌트 반복
+- [x] nav item 클릭했을 때 다른 데이터가 나오도록 구현
+- [x] 금액에 `,` 찍는 함수 구현하기 (직접 구현)
 - [ ] eslint, prettier 적용하기 (airbnb 컨벤션)
 
 ### 이론정리
