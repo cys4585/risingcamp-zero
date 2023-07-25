@@ -1,0 +1,17 @@
+.language-button {
+  cursor: pointer;
+  border-radius: 22px;
+  padding: 12px;
+  color: #222222;
+}
+
+.language-button:hover {
+  background-color: #f7f7f7;
+}
+
+.language-button > svg {
+  display: block;
+  height: 16px;
+  width: 16px;
+  fill: currentcolor;
+}
