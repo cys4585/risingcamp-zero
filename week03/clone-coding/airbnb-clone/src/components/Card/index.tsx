@@ -15,7 +15,7 @@ const addCommasToNumber = (number: number): string => {
   let pieceOfNumber = "";
 
   for (let i = strNumber.length - 1; i >= 0; i--) {
-    pieceOfNumber += strNumber[i];
+    pieceOfNumber = strNumber[i] + pieceOfNumber;
     if (pieceOfNumber.length === 3) {
       splitedNumbers.unshift(pieceOfNumber);
       pieceOfNumber = "";
