@@ -45,14 +45,14 @@
 
 ### 이론정리
 
-- [ ] SPA, CSR, MPA, SSR, SSG
-- [ ] class형 컴포넌트, 함수형 컴포넌트
-- [ ] 이벤트 버블링, 이벤트 캡쳐링
-- [ ] TypeScript의 인덱스 시그니처
+- [x] SPA, CSR, MPA, SSR, SSG
+- [x] class형 컴포넌트, 함수형 컴포넌트
+- [x] 이벤트 버블링, 이벤트 캡쳐링
+- [x] TypeScript의 인덱스 시그니처
 
 ### 추가과제
 
-- [ ] 예외처리 `try-catch`
+- [x] 예외처리 `try-catch`
 - [ ] env 파일 등
 
 ---
