@@ -1,0 +1,740 @@
+{
+  "room-concepts": [
+    {
+      "id": 0,
+      "text": "멋진 수영장",
+      "imgSrc": "/images/room-concepts/swimming-pool.jpg",
+      "value": "swimming-pool"
+    },
+    {
+      "id": 1,
+      "text": "방",
+      "imgSrc": "/images/room-concepts/room.jpg",
+      "value": "room"
+    },
+    {
+      "id": 2,
+      "text": "해변 바로 앞",
+      "imgSrc": "/images/room-concepts/beach.jpg",
+      "value": "beach"
+    },
+    {
+      "id": 3,
+      "text": "A자형 주택",
+      "imgSrc": "/images/room-concepts/a-shape-house.jpg",
+      "value": "a-shape-house"
+    },
+    {
+      "id": 4,
+      "text": "서핑",
+      "imgSrc": "/images/room-concepts/surfing.jpg",
+      "value": "surfing"
+    },
+    {
+      "id": 5,
+      "text": "최고의 전망",
+      "imgSrc": "/images/room-concepts/best-view.jpg",
+      "value": "best-view"
+    },
+    {
+      "id": 6,
+      "text": "한적한 시골",
+      "imgSrc": "/images/room-concepts/countryside.jpg",
+      "value": "countryside"
+    },
+    {
+      "id": 7,
+      "text": "한옥",
+      "imgSrc": "/images/room-concepts/korean-house.jpg",
+      "value": "korean-house"
+    },
+    {
+      "id": 8,
+      "text": "국립공원",
+      "imgSrc": "/images/room-concepts/national-park.jpg",
+      "value": "national-park"
+    },
+    {
+      "id": 9,
+      "text": "인기 급상승",
+      "imgSrc": "/images/room-concepts/surge-popularity.jpg",
+      "value": "surge-popularity"
+    },
+    {
+      "id": 10,
+      "text": "캠핑장",
+      "imgSrc": "/images/room-concepts/campground.jpg",
+      "value": "campground"
+    },
+    {
+      "id": 11,
+      "text": "농장",
+      "imgSrc": "/images/room-concepts/farm.jpg",
+      "value": "farm"
+    }
+  ],
+  "rooms-swimming-pool": [
+    {
+      "id": 0,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트1.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 1817141
+    },
+    {
+      "id": 1,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션1.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 69612318
+    },
+    {
+      "id": 2,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션2.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 61296118
+    },
+    {
+      "id": 3,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트2.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 185861714
+    },
+    {
+      "id": 4,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션3.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 6966118
+    },
+    {
+      "id": 5,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트3.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181567714
+    },
+    {
+      "id": 6,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션4.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 6965673118
+    },
+    {
+      "id": 7,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트4.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 18156714
+    },
+    {
+      "id": 8,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션5.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 6961
+    },
+    {
+      "id": 9,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트5.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 714
+    },
+    {
+      "id": 10,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션1.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 69618
+    },
+    {
+      "id": 11,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트6.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 4
+    },
+    {
+      "id": 12,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션2.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 68
+    },
+    {
+      "id": 13,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트2.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 18114
+    },
+    {
+      "id": 14,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션3.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 69600118
+    },
+    {
+      "id": 15,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트3.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 18171400000
+    },
+    {
+      "id": 16,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션4.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 17,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트4.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 18,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션5.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 19,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트5.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 20,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션2.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 21,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트6.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 22,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션4.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 23,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트4.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 24,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션1.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 25,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트1.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 26,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션3.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 27,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트6.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 28,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트3.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 29,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트1.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 30,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션1.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 31,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션2.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 32,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트2.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 33,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션3.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 34,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트3.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 35,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션4.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 36,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트4.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 37,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션5.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 38,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트5.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 39,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션1.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 40,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트6.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 41,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션2.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 42,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트2.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 43,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션3.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 44,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트3.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 45,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션4.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 46,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트4.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 47,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션5.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 48,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트5.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 49,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션2.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 50,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트6.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 51,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션4.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 52,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트4.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 53,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션1.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 54,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트1.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 55,
+      "imgSrc": ["/images/rooms/swimming-pool/경주다인풀빌라팬션3.webp"],
+      "address": "Oedong-eup, Gyeongju, 한국",
+      "distance": "288km 거리",
+      "duration": "11월 1일~6일",
+      "price": 696118
+    },
+    {
+      "id": 56,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트6.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    },
+    {
+      "id": 57,
+      "imgSrc": ["/images/rooms/swimming-pool/여수리조트3.webp"],
+      "address": "Dolsan-eup, Yeosu-si, 한국",
+      "distance": "326km 거리",
+      "duration": "9월 3일~10일",
+      "price": 181714
+    }
+  ],
+  "rooms-a-shape-house": [
+    {
+      "id": 0,
+      "imgSrc": ["/images/rooms/korean-house/하회마을지산고택사랑방1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    },
+    {
+      "id": 1,
+      "imgSrc": ["/images/rooms/korean-house/한옥빌리지1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    }
+  ],
+  "rooms-beach": [
+    {
+      "id": 0,
+      "imgSrc": ["/images/rooms/korean-house/하회마을지산고택사랑방1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    },
+    {
+      "id": 1,
+      "imgSrc": ["/images/rooms/korean-house/한옥빌리지1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    }
+  ],
+  "rooms-campground": [
+    {
+      "id": 0,
+      "imgSrc": ["/images/rooms/korean-house/하회마을지산고택사랑방1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    },
+    {
+      "id": 1,
+      "imgSrc": ["/images/rooms/korean-house/한옥빌리지1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    }
+  ],
+  "rooms-countryside": [
+    {
+      "id": 0,
+      "imgSrc": ["/images/rooms/korean-house/하회마을지산고택사랑방1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    },
+    {
+      "id": 1,
+      "imgSrc": ["/images/rooms/korean-house/한옥빌리지1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    }
+  ],
+  "rooms-farm": [
+    {
+      "id": 0,
+      "imgSrc": ["/images/rooms/korean-house/하회마을지산고택사랑방1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    },
+    {
+      "id": 1,
+      "imgSrc": ["/images/rooms/korean-house/한옥빌리지1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    }
+  ],
+  "rooms-national-park": [
+    {
+      "id": 0,
+      "imgSrc": ["/images/rooms/korean-house/하회마을지산고택사랑방1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    },
+    {
+      "id": 1,
+      "imgSrc": ["/images/rooms/korean-house/한옥빌리지1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    }
+  ],
+  "rooms-room": [
+    {
+      "id": 0,
+      "imgSrc": ["/images/rooms/korean-house/하회마을지산고택사랑방1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    },
+    {
+      "id": 1,
+      "imgSrc": ["/images/rooms/korean-house/한옥빌리지1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    }
+  ],
+  "rooms-surfing": [
+    {
+      "id": 0,
+      "imgSrc": ["/images/rooms/korean-house/하회마을지산고택사랑방1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    },
+    {
+      "id": 1,
+      "imgSrc": ["/images/rooms/korean-house/한옥빌리지1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    }
+  ],
+  "rooms-best-view": [
+    {
+      "id": 0,
+      "imgSrc": ["/images/rooms/korean-house/하회마을지산고택사랑방1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    },
+    {
+      "id": 1,
+      "imgSrc": ["/images/rooms/korean-house/한옥빌리지1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    }
+  ],
+  "rooms-surge-popularity": [
+    {
+      "id": 0,
+      "imgSrc": ["/images/rooms/korean-house/하회마을지산고택사랑방1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    },
+    {
+      "id": 1,
+      "imgSrc": ["/images/rooms/korean-house/한옥빌리지1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    }
+  ],
+  "rooms-korean-house": [
+    {
+      "id": 0,
+      "imgSrc": ["/images/rooms/korean-house/하회마을지산고택사랑방1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    },
+    {
+      "id": 1,
+      "imgSrc": ["/images/rooms/korean-house/한옥빌리지1.webp"],
+      "address": "Pungcheon-myeon, Andong, 한국",
+      "distance": "177km 거리",
+      "duration": "10월 9일~15일",
+      "price": 176883
+    }
+  ]
+}

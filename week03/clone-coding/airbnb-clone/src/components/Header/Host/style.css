@@ -1,0 +1,13 @@
+.host {
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap; /* 줄바꿈 방지 */
+  cursor: pointer;
+  border-radius: 22px;
+  padding: 12px;
+  color: #222222;
+}
+
+.host:hover {
+  background-color: #f7f7f7;
+}
