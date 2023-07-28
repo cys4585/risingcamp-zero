@@ -68,9 +68,9 @@
 
 # 4주차 토론주제
 
-- [ ] 리액트 `useState` 선언할 때 `const` 쓰는 이유
-- [ ] state update 시에 `spread` 연산자 쓰는 이유
-- [ ] `map` 함수에서 `key` 써줘야하는 이유
+- [x] 리액트 `useState` 선언할 때 `const` 쓰는 이유
+- [x] state update 시에 `spread` 연산자 쓰는 이유
+- [x] `map` 함수에서 `key` 써줘야하는 이유
 - [ ] 읽어온 내용 토론
   - [ ] tsconfig가 프로젝트에서 하는 역할
   - [ ] useState
