@@ -24,7 +24,7 @@
 
 - issue를 직접 만들어서 pr에서 close 키워드 사용해보기
 - [x] issue 만들기
-- [ ] pull request에 close 키워드 사용하기
+- [x] pull request에 close 키워드 사용하기
 - [reference link](https://yeoonjae.tistory.com/entry/Project-Github-PR-merge-%EC%8B%9C-issue-%EC%9E%90%EB%8F%99-close-%EB%B0%A9%EB%B2%95)
 
 ### TypeScript 강의 듣고 결과물
